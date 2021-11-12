@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#4C4A49"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#8E8E8E"/>
+
+    <View style="@style/Divider" android:layout_marginTop="30dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:checked="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unchecked" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4A49"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/relative_layout"
+        android:textColor="#8E8E8E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View style="@style/Divider" android:layout_marginTop="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/entry"
+            android:layout_alignParentStart="true"
+            android:text="@string/url" />
+
+        <EditText
+            android:id="@id/entry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/menu_button"
+            android:backgroundTint="@color/white"
+            android:layout_toEndOf="@id/label"
+            android:padding="10dp"
+            android:textColor="@color/purple_500"
+            android:autofillHints="true"
+            android:hint="@string/enter_your_text_here"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/entry"
+            android:layout_alignEnd="@id/entry"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ok"
+            android:layout_toStartOf="@id/ok"
+            android:text="@string/cancel" />
+
+    </RelativeLayout>
+
+</LinearLayout>

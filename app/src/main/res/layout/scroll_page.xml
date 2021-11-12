@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4A49"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/scroll_view"
+        android:textColor="#8E8E8E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View style="@style/Divider" android:layout_marginTop="30dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0">
+
+        <TableRow>
+            <View
+                android:layout_height="80dp"
+                android:background="@drawable/menu_button"
+                android:backgroundTint="#000000"/>
+            <TextView android:text="#000000"
+                android:paddingLeft="4dp"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_height="80dp"
+                android:background="@drawable/menu_button"
+                android:backgroundTint="#440000"/>
+            <TextView android:text="#440000"
+                android:paddingLeft="4dp"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_height="80dp"
+                android:background="@drawable/menu_button"
+                android:backgroundTint="#884400"/>
+            <TextView android:text="#884400"
+                android:paddingLeft="4dp"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_height="80dp"
+                android:background="@drawable/menu_button"
+                android:backgroundTint="#aa8844"/>
+            <TextView android:text="#aa8844"
+                android:paddingLeft="4dp"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_height="80dp"
+                android:background="@drawable/menu_button"
+                android:backgroundTint="#ffaa88"/>
+            <TextView android:text="#ffaa88"
+                android:paddingLeft="4dp"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_height="80dp"
+                android:background="@drawable/menu_button"
+                android:backgroundTint="#ffffaa" />
+            <TextView android:text="#ffffaa"
+                android:paddingLeft="4dp"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_height="80dp"
+                android:background="@drawable/menu_button"
+                android:backgroundTint="#ffffff"/>
+            <TextView android:text="#ffffff"
+                android:paddingLeft="4dp"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+
+
+</LinearLayout>

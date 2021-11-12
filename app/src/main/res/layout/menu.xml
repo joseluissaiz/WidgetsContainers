@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#4C4A49"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#8E8E8E"/>
+
+    <View style="@style/Divider" android:layout_marginTop="30dp"/>
+
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/menu_button"/>
+
+            <Button
+                android:id="@+id/b_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_button"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/menu_button"/>
+
+            <Button
+                android:id="@+id/b_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight_box_model"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/menu_button"/>
+
+            <Button
+                android:id="@+id/b_relative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/relative_layout"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/menu_button"/>
+
+            <Button
+                android:id="@+id/b_overlap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/overlap"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/menu_button"/>
+
+            <Button
+                android:id="@+id/b_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/table_layout"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/menu_button"/>
+
+            <Button
+                android:id="@+id/b_scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scroll_view"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/menu_button"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
